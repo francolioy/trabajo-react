@@ -1,0 +1,42 @@
+/* encabezado.css */
+
+.encabezado {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de flexbox a columna */
+    align-items: center;
+}
+
+.encabezado h1 {
+    font-size: 48px;
+    margin-bottom: 10px; /* Agregar un margen inferior para separar el título del menú */
+}
+
+.encabezado nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.encabezado nav ul li {
+    margin-right: 20px;
+}
+
+.encabezado nav ul li:last-child {
+    margin-right: 0;
+}
+
+.encabezado nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para los enlaces cuando se les da hover */
+.encabezado nav a:hover {
+    text-decoration: underline;
+    color: greenyellow; /* Cambiar a tu color de resaltado deseado */
+}
+
